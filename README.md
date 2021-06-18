@@ -62,7 +62,7 @@ Expect: `15`
 ## Known Bugs and Future Changes :bug:
 
 * _Non known at this time_
-* _Make real dice that roll_
+* _Be able to choose more than one topping at once_
 
 ## License :clipboard:
 
