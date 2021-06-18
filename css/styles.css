@@ -1,6 +1,15 @@
-h1 {
+h1, h2 {
   font-family: 'Bangers', cursive;
   letter-spacing:5px;
+}
+
+p {
+  font-family: 'Bangers', cursive;
+  font-family: 'Source Code Pro', monospace;
+}
+
+img {
+  float: right;
 }
 
 .jumbotron {
