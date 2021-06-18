@@ -1,8 +1,8 @@
-# _Pizza Parlor
+# _Pizza Parlor_ :pizza:
 
 _The First Byte Pizza Parlor website_
 
-## Team Members
+## Team Members 
 
 * _**John Blalock**_
 
@@ -34,12 +34,27 @@ Expected: `newPizza = {`
 Describe: `Pizza.prototype.pizzaPrice()`
 Test: 'It should return a price of 5 + size if topping === pepperoni.
 Code: `newPizza.pizzaPrice()`
-Expect: ``
+Expect: `15`
+
+Describe: `Pizza.prototype.pizzaPrice()`
+Test: 'It should return a price of 6 + size if topping === sausage.
+Code: `newPizza.pizzaPrice()`
+Expect: `15`
+
+Describe: `Pizza.prototype.pizzaPrice()`
+Test: 'It should return a price of 4 + size if topping === mushroom.
+Code: `newPizza.pizzaPrice()`
+Expect: `15`
+
+Describe: `Pizza.prototype.pizzaPrice()`
+Test: 'It should return a price of 3 + size if topping === olive.
+Code: `newPizza.pizzaPrice()`
+Expect: `15`
 
 ## Setup/Installation Requirements :triangular_ruler:
 
-* Clone github repo `git clone https://github.com/bordonj/pigDice`:
-* Navigate to directory `pig-dice`
+* Clone github repo `git clone https://github.com/simpledimplejohn/pizzaParlor`:
+* Navigate to directory `pizza-parlor`
 * Open `index.html` in your browser.
 * Enter your player names and play.
 
