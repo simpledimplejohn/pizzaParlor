@@ -13,8 +13,8 @@ img {
 }
 
 .jumbotron {
-  background-color: lightyellow
+  background-color: rgb(249, 242, 40)
 }
 .card-body {
-  background-color: lightblue;
+  background-color: rgb(85, 181, 255);
 }
