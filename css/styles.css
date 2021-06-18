@@ -1,0 +1,11 @@
+h1 {
+  font-family: 'Bangers', cursive;
+  letter-spacing:5px;
+}
+
+.jumbotron {
+  background-color: lightyellow
+}
+.card-body {
+  background-color: lightblue;
+}
