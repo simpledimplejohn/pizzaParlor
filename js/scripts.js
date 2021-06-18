@@ -21,6 +21,7 @@ Pizza.prototype.pizzaPrice = function() {
 
 
 $(document).ready(function() {
+
   $("#order-form").submit(function(event) {
     event.preventDefault();
     console.log("document.ready works!")
@@ -28,10 +29,8 @@ $(document).ready(function() {
     const toppingInput = parseInt($("#toppings").val());
 
     let newPizza = new Pizza(sizeInput, toppingInput);
-
     newPizza.pizzaPrice();
     console.log(newPizza.price)
     $("#result").text(newPizza.price)
-
   })
 })
