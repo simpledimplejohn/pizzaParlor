@@ -7,25 +7,16 @@ function Pizza(size, topping) {
 Pizza.prototype.pizzaPrice = function() {
   let size = this.size
   let topping = this.topping
-
-  if (size === 1) {
-    console.log("1 works")
-    this.price += 10;
-  } else if (size === 2) {
-    console.log("2 works")
-    this.price += 20;
-  } else if (size === 3) {
-    console.log("3 works")
-    this.price += 30
-  } 
+  console.log(topping)
   if (topping === 1) {
-    console.log("topping works")
-    this.price *= 1.8;
+    this.price += (5 + size);
   } else if (topping === 2) {
-    console.log("toppings 2 works")
-    this.price *= 1.2;
+    this.price += (6 + size);
+  } else if (topping === 3) {
+    this.price += (4 + size);
+  } else {
+    this.price += (3 + size);
   }
-  return this.price
 }
 
 
