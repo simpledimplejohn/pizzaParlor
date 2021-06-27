@@ -5,7 +5,7 @@ export default class Pizza {
   constructor(size, topping) {
     this.size = size;
     this.topping = topping;
-    this.price = 0
+    this.price = 0;
   }
   pizzaPrice () {
     if (this.topping === 1) {
