@@ -40,9 +40,12 @@ Expected: `newPizza = {`
 Describe: `Pizza.prototype.pizzaPrice()`
 Test: 'It should return a price of 5 + size if topping === pepperoni.
 Code: `newPizza.price`
-Expect: `13`
+Expect: `15`
 
-
+Describe: `Pizza.prototype.pizzaPrice()`
+Test: 'It should return a price of 6 + size if topping === sausage.
+Code: `newPizza.price`
+Expect: `16`
 
 ## Setup/Installation Requirements :triangular_ruler:
 

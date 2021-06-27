@@ -15,8 +15,14 @@ describe('Pizza', () => {
   });
 
   test('should return a pice of 5 + size if topping === pepperoni', () => {
-    const newPizza = new Pizza(10, 5);
+    const newPizza = new Pizza(10, 1);
     newPizza.pizzaPrice();
-    expect(newPizza.price).toEqual(13)
+    expect(newPizza.price).toEqual(15)
+  })
+
+  test('should return a pice of 6 + size if topping === sausage', () => {
+    const newPizza = new Pizza(10, 2);
+    newPizza.pizzaPrice();
+    expect(newPizza.price).toEqual(16)
   })
 });
