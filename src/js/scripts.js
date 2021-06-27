@@ -1,4 +1,4 @@
-console.log("scripts works!")
+console.log("scripts works!");
 
 
 export default class Pizza {

@@ -4,11 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import Pizza from './js/scripts.js';
 
-
-
-
-
-
 $(document).ready(function() {
 
   $("#order-form").submit(function(event) {
@@ -21,6 +16,6 @@ $(document).ready(function() {
     newPizza.pizzaPrice();
     console.log(newPizza.price);
     $("#result").text(newPizza.price);
-  })
-})
+  });
+});
 
