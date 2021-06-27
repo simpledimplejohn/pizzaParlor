@@ -23,12 +23,11 @@ _A Pizza Parlor website designed to calculate the price of a pizza based on form
 ## Specs :pushpin:
 
 Describe: `Pizza()`
+
 Test: "It should check that Pizza class is present."
 Code: `let newPizza = new Pizza();`
 Expected: `newPizza = {}`
 
-
-Describe: `Pizza()`
 Test: "It should return an object containing the size and toppings of the pizza."
 Code: `let newPizza = new Pizza(10,1);`
 Expected: `newPizza = {`
@@ -38,21 +37,19 @@ Expected: `newPizza = {`
 `}`
 
 Describe: `Pizza.prototype.pizzaPrice()`
+
 Test: 'It should return a price of 5 + size if topping === pepperoni.
 Code: `newPizza.price`
 Expect: `15`
 
-Describe: `Pizza.prototype.pizzaPrice()`
 Test: 'It should return a price of 6 + size if topping === sausage.
 Code: `newPizza.price`
 Expect: `16`
 
-Describe: `Pizza.prototype.pizzaPrice()`
 Test: 'It should return a price of 4 + size if topping === olive.
 Code: `newPizza.price`
 Expect: `14`
 
-Describe: `Pizza.prototype.pizzaPrice()`
 Test: 'It should return a price of 3 + size if topping === mushroom.
 Code: `newPizza.price`
 Expect: `13`
