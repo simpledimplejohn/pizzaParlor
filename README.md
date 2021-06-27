@@ -62,7 +62,7 @@ Expect: `13`
 * Clone github repo `git clone https://github.com/simpledimplejohn/pizzaParlor`:
 * Navigate to directory `pizza-parlor`
 * Open `index.html` in your browser.
-* Enter your player names and play.
+* Choose your toppings and order your pizza!
 
 
 ## Known Bugs and Future Changes :bug:
@@ -72,7 +72,8 @@ Expect: `13`
 
 ## License :clipboard:
 
-MIT &copy; 2021 _John Blalock_
+_[MIT](https://opensource.org/licenses/MIT)_
+&copy; 2021 _John Blalock_
 
 ## Contact Information :mailbox:
 
