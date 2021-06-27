@@ -47,6 +47,16 @@ Test: 'It should return a price of 6 + size if topping === sausage.
 Code: `newPizza.price`
 Expect: `16`
 
+Describe: `Pizza.prototype.pizzaPrice()`
+Test: 'It should return a price of 4 + size if topping === olive.
+Code: `newPizza.price`
+Expect: `14`
+
+Describe: `Pizza.prototype.pizzaPrice()`
+Test: 'It should return a price of 3 + size if topping === mushroom.
+Code: `newPizza.price`
+Expect: `13`
+
 ## Setup/Installation Requirements :triangular_ruler:
 
 * Clone github repo `git clone https://github.com/simpledimplejohn/pizzaParlor`:

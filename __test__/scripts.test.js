@@ -32,6 +32,10 @@ describe('Pizza', () => {
     expect(newPizza.price).toEqual(14)
   })
 
-
+  test('should return a pice of 3 + size if topping === mushroom', () => {
+    const newPizza = new Pizza(10, 4);
+    newPizza.pizzaPrice();
+    expect(newPizza.price).toEqual(13)
+  })
 
 });
