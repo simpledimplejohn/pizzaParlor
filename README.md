@@ -22,6 +22,12 @@ _A Pizza Parlor website designed to calculate the price of a pizza based on form
 
 ## Specs :pushpin:
 
+Descirbe: `Pizza()`
+Test: "It should check that Pizza class is present."
+Code: `let newPizza = new Pizza();`
+Expected: `newPizza = {}`
+
+
 Describe: `Pizza()`
 Test: "It should return an object containing the size and toppings of the pizza."
 Code: `let newPizza = new Pizza(10,1);`

@@ -1,7 +1,7 @@
 import Pizza from './../src/js/scripts.js';
 
 describe('Pizza', () => {
-  test('should create an object with three properties', () => {
-    const newPizza = new Pizza(1, 1)
+  test('should check that Pizza class is present', () => {
+    const newPizza = new Pizza()
   })
 })
