@@ -25,4 +25,13 @@ describe('Pizza', () => {
     newPizza.pizzaPrice();
     expect(newPizza.price).toEqual(16)
   })
+
+  test('should return a pice of 4 + size if topping === olive', () => {
+    const newPizza = new Pizza(10, 3);
+    newPizza.pizzaPrice();
+    expect(newPizza.price).toEqual(14)
+  })
+
+
+
 });
